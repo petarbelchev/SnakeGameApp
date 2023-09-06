@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33927.249
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnakeGameConsoleApp", "SnakeGameConsoleApp\SnakeGameConsoleApp.csproj", "{EA16106A-E953-4E3E-A8F3-B03DA2E889D2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnakeGame.ConsoleApp", "SnakeGameConsoleApp\SnakeGame.ConsoleApp.csproj", "{EA16106A-E953-4E3E-A8F3-B03DA2E889D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnakeGame.Core", "SnakeGame.Core\SnakeGame.Core.csproj", "{D5BCF6A1-66AE-471E-BFC6-5E9F778AA309}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{EA16106A-E953-4E3E-A8F3-B03DA2E889D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA16106A-E953-4E3E-A8F3-B03DA2E889D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA16106A-E953-4E3E-A8F3-B03DA2E889D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5BCF6A1-66AE-471E-BFC6-5E9F778AA309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5BCF6A1-66AE-471E-BFC6-5E9F778AA309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5BCF6A1-66AE-471E-BFC6-5E9F778AA309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5BCF6A1-66AE-471E-BFC6-5E9F778AA309}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

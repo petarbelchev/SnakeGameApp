@@ -1,9 +1,17 @@
-﻿namespace SnakeGameConsoleApp;
+﻿using SnakeGame.Core.GameObjects;
+
+namespace SnakeGame.ConsoleApp;
 
 internal class Program
 {
-	static void Main(string[] args)
+	public static void Main()
 	{
-		Console.WriteLine("Hello, World!");
+		ConsoleWindow.CustomizeConsole();
+
+		Wall wall = new Wall(60, 20);
+		Snake snake = new Snake(wall);
+
+		Engine engine = new Engine(wall, snake);
+		engine.Run();
 	}
 }
